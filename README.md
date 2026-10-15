@@ -4,7 +4,7 @@ The Solana program that distributes $RUNNERS: it holds the entire supply and let
 allocation once, until a deadline. After the deadline, anyone can burn what was not claimed.
 
 There is no admin. Once a distribution is initialized, nothing can change its list of wallets, its total or its
-deadline, and the program cannot be upgraded.
+deadline. The program can be upgraded until its upgrade authority is removed; the current authority is shown on-chain.
 
 ## Instructions
 
